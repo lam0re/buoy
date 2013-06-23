@@ -1,0 +1,6 @@
+AuthUserFile /home/buoy/admins.passwd
+AuthType Basic
+AuthName "No access"
+<Limit GET POST>
+require valid-user
+</Limit>
